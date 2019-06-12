@@ -1,0 +1,98 @@
+/**********************************/
+
+.formContainer {
+    width: 85%;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.918);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    font-family: 'Montserrat', 'Arial';
+    z-index: 1;
+    color: white;
+    display: none;
+}
+
+.crossBtn h1 {
+    position: absolute;
+    height: 36px; 
+    width: 36px;  
+    border-radius: 200px; 
+    border: 3px solid white; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none
+}
+
+.formContainer h1 {
+    margin-top: 0;
+    font-weight: 200;
+}
+
+.inputBox {
+    border: 1px solid white;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px; 
+}
+
+.inputBox label {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+
+.inputBox input {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    background: none;
+    color: white;
+}
+
+.submitBtn {
+    display: inline-block;
+    background-color: orange;
+    padding: 14px 0;
+    text-transform: uppercase;
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .inputBox label {
+        font-size: 2vw;
+        padding: 0 10px;
+    }
+
+    .inputBox input {
+        font-size: 3vw;
+        padding: 2vw 10px;
+    }
+
+    .inputBox {
+        height: 10vw;
+        padding: 0;
+
+    }
+
+    .crossBtn h1 {
+        height: 5vw;
+        width: 5vw;
+        border: 0.5vw solid white; 
+
+    }
+
+    .inputBox label p {
+        margin: 0;
+    }
+
+}

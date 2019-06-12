@@ -1,0 +1,385 @@
+body {
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+.redColor {
+    color: #0f86ff;
+}
+
+.orangeColor {
+    color: #0f86ff;
+}
+
+.orangeBtn div{
+    color: white;
+    background-color: #0f86ff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.orangeBtn {
+    text-decoration: none;
+    padding: 0;
+}
+
+
+/* h1 {
+    font-size: 3vw;
+} */
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 4vw;
+    }
+}
+
+/*****************************************************************/
+
+
+.citiesNamesContainer {
+    position: relative;
+    margin-top: 25px;
+}
+
+.citiesNames {
+    font-size: 0.9vw;
+    font-weight: bold;
+}
+
+.companyLogoBox {
+    position: relative;
+    margin: 30px;
+}
+
+.companyLogo {
+    /* height: 100px; */
+    width: 18%;
+}
+
+.seminarIntroBox {
+    position: relative;
+}
+
+.seminarIntro {
+    font-size: 22px;
+}
+
+.eventInfoBox {
+    position: relative;
+    width: 100%;
+    /* height: 400px; */
+    background-color: #0f87ff93;
+    /* opacity: 0.5; */
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .citiesNames {
+        font-size: 2.5vw;
+    }
+
+    .seminarIntro {
+        font-size: 3vw
+    }
+
+    .eventInfoBox {
+        flex-direction: column;
+    }
+    
+    .companyLogo {
+        width: 20vw;
+        min-width: 170px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    body .eventInfo2Div {
+       margin-left: 5%;
+       margin-right: 5%; 
+    }  
+}
+
+.eventInfoBackground {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+}
+
+.eventInfo1 {
+    position: relative;
+    flex: 3;
+}
+
+.eventInfo1 table {
+    position: relative;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+.eventInfo1 table tr {
+    text-align: center;
+}
+
+.eventInfo1 table tr td {
+    padding: 15px;
+}
+
+.eventInfo2 {
+    flex: 2;
+    position: relative;
+    color: white;
+    padding: 30px;
+}
+
+.eventInfo2Div {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 15%;
+    margin-right: 15%;
+
+    /* width: 70%; */
+    /* margin: 15%; */
+    /* padding: 5%; */
+}
+
+.eventInfo2Div tr td {
+    padding: 10px;
+}
+
+.eventInfo2 h1 {
+    font-size: 18px;
+}
+
+.timer {
+    display: flex;
+}
+
+.timer div {
+    flex: 1;
+}
+
+.timer div p {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .timer div p {
+        font-size: 3vw;
+    } 
+}
+
+.mainContainer {
+    padding-top: 30px;
+    padding-top: 30px;
+    padding-left: 15%; 
+    padding-right: 15%;
+}
+
+.mainContainer h1 {
+    font-size: 2.5vw;
+}
+
+@media screen and (max-width: 800px) {
+    .mainContainer {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .mainContainer li ,p {
+        font-size: 3vw;    
+    }
+
+    .whatYouWillLearnDiv {
+        flex-direction: column;
+    }
+
+    .eventInfo2Div h1 {
+        font-size: 3vw;
+    }
+
+    /* .whatYouWillLearnDivDiv2 h2 {
+        font-size: 3vw;
+    } */
+
+    .orangeBtn {
+        font-size: 3vw;
+    }
+
+    .mainContainer h2 {
+        font-size: 3vw;
+    }
+
+    .bollywoodNo1 {
+        flex-direction: column;
+    }
+
+    .mainContainer object {
+        height: 50vw;
+    }
+
+    .globeEtc h2 {
+        font-size: 6vw;
+    }
+
+    .globeEtc h3 {
+        font-size: 5vw;
+    }
+
+    .globeEtc {
+        flex-direction: column;
+    }
+
+    body .globeEtc div {
+        margin: 0;
+    }
+
+    .globeEtc div img {
+        margin: 10px;
+    }
+
+    .seminarWillBe {
+        flex-direction: column;
+    }
+
+    .mainContainer .seminarWillBe p {
+        font-size: 3vw;
+    }
+
+    .listenToWhat {
+        flex-direction: column;
+    }
+}
+
+
+.whatYouWillLearnDiv {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.whatYouWillLearnDivDiv1 {
+    flex: 3;
+
+
+}
+
+
+.whatYouWillLearnDivDiv1 li {
+    list-style-image: url('images/tick.jpg');
+    list-style-type: none;
+    margin: 10px;
+}
+
+.whatYouWillLearnDivDiv2 {
+    flex: 2;
+
+    
+}
+
+.soIfYouFeel {
+    font-size: 20px;
+}
+
+.listenToWhat {
+    display: flex;
+}
+
+.listenToWhat div {
+    flex: 1;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    text-align: center;
+    padding: 1vw;
+    margin: 1vw;
+}
+
+.globeEtc {
+    display: flex;
+}
+
+.globeEtc div {
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.globeEtc img {
+    margin-top: 40px;
+    height: 50px;
+    width: 50px;
+}
+
+.globeEtc h3 {
+    font-weight: 100;
+}
+
+.seminarWillBe {
+    display: flex;
+}
+
+.seminarWillBe p {
+    font-size: 20px;
+}
+
+.footer {
+    position: relative;
+    margin-top: 50px;
+    /* height: 560px; */
+}
+.footer img {
+    position: absolute;
+}
+
+.footerContent {
+    position: relative;
+    /* background-color: green; */
+    display: flex;
+    padding: 20px
+}
+
+.withContent {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .footerContent {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer .withContent {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+
+    .footer h3 {
+        font-size: 4vw;
+    }
+
+    .footer h2 {
+        font-size: 4vw;
+    }
+
+    .copyright h4 {
+        font-size: 3vw;
+    }
+
+}
